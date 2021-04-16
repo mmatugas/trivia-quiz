@@ -1,6 +1,6 @@
 import * as http from './http.js'
 import * as view from './view.js'
-const GET_TRIVIA = `https://opentdb.com/api.php?amount=1&difficulty=easy&type=multiple`;
+const GET_TRIVIA = `https://opentdb.com/api.php?amount=1&category=31&difficulty=easy&type=multiple`;
 const BIN_ID = '6074e9015b165e19f61e4c06'
 const GET_LEADERBOARD = `https://api.jsonbin.io/b/${BIN_ID}/latest`;
 const PUT_LEADERBOARD = `https://api.jsonbin.io/b/${BIN_ID}`;
